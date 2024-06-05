@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+}
+.restaurant{
+    display: flex;
+    justify-content: space-between;
+}
+
+.changes{
+    display: flex;
+    justify-content: center;
+}
+
+
+.details{
+    text-align: left;
+    font-size: xx-large;
+    padding: 30px;
+    color: black;
+}
+.wapper{
+    width: auto;
+    background-color: bisque;
+    border: 3px solid rgba(2555, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: xx-large;
+    color: black;
+    font: revert;
+}
